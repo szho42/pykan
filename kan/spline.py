@@ -84,9 +84,9 @@ def curve2coef(x_eval, y_eval, grid, k, lamb=1e-8):
     
     Args:
     -----
-        x_eval : 2D torch.tensor
+        x_eval : 3D torch.tensor
             shape (in_dim, out_dim, number of samples)
-        y_eval : 2D torch.tensor
+        y_eval : 3D torch.tensor
             shape (in_dim, out_dim, number of samples)
         grid : 2D torch.tensor
             shape (in_dim, grid+2*k)
